@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple To‑Do (localStorage)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>To‑Do</h1>
+
+    <form id="todo-form" class="todo-form" autocomplete="off">
+      <input id="new-todo" type="text" placeholder="Add a new task and press Enter" />
+    </form>
+
+    <section class="controls">
+      <div class="filters" role="tablist">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="active">Active</button>
+        <button class="filter" data-filter="completed">Completed</button>
+      </div>
+      <button id="clear-completed" class="clear-btn">Clear completed</button>
+    </section>
+
+    <ul id="todo-list" class="todo-list" aria-live="polite"></ul>
+
+    <footer class="footer">
+      <span id="items-left">0 items left</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
