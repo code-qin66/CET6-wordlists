@@ -1,0 +1,5 @@
+This file will be filled with the CET-6 words (one per line).
+
+At the moment this is a placeholder. To proceed, please reply 'continue' and I will upload the CET6_words_only.txt contents in batches (default 500 words per batch) as separate commits until the full list is uploaded.
+
+If you prefer, tell me a different batch size or request the entire file uploaded at once (may produce many commits/messages).

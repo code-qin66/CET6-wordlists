@@ -1,0 +1,4 @@
+This file will be filled with CET-6 entries in the format:
+word - 中文释义 - 英语例句
+
+At the moment this is a placeholder. Reply 'continue' to upload the first batch (500 entries) for CET6_words_def_example.txt.
